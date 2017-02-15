@@ -1,10 +1,16 @@
 import React from 'react';
-import Box from 'grommet/components/Box';
+import Article from 'grommet/components/Article';
+import { SearchMoviesContainer } from 'containers';
+import styled from 'styled-components';
+
+const Body = styled(Article)`
+  padding: 0px 50px;
+`;
 
 export default function HomePage() {
   return (
-    <Box>
-      Hello from HomePage!
-    </Box>
+    <Body>
+      <SearchMoviesContainer />
+    </Body>
   );
 }
