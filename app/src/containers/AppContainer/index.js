@@ -3,17 +3,15 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import App from 'grommet/components/App';
 import { AppContainer as ReactHotLoader } from 'react-hot-loader';
-import { Navbar, AppFooter } from 'components';
+import { AppHeader } from 'components';
 import * as AppContainerActionCreators from './actions';
 
 class AppContainer extends Component { // eslint-disable-line react/prefer-stateless-function
   render() {
-    const {
-      location,
-    } = this.props;
     return (
       <ReactHotLoader>
         <App centered={false} inline>
+          <AppHeader />
           {React.cloneElement(this.props.children, this.props)}
         </App>
       </ReactHotLoader>
