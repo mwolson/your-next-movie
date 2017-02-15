@@ -31,20 +31,12 @@ export const routes = {
   path: '/',
   indexRoute: {
     getComponent(location, callback) {
-      System.import('./pages/LandingPage') // eslint-disable-line block-scoped-var
+      System.import('./pages/HomePage') // eslint-disable-line block-scoped-var
         .then(loadRoute(callback))
         .catch(err => errorLoading(err));
     },
   },
   childRoutes: [
-    {
-      path: '/about',
-      getComponent(location, callback) {
-        System.import('./pages/AboutPage') // eslint-disable-line block-scoped-var
-          .then(loadRoute(callback))
-          .catch(err => errorLoading(err));
-      },
-    },
 /* GENERATOR: Newly generated Routes go here */
     {
       path: '*',

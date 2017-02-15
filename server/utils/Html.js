@@ -9,7 +9,7 @@ function Html({ content, state, scriptHash, vendorHash, cssHash, styles }) {
         <meta charSet="UTF-8" />
         <meta httpEquiv="Content-Language" content="en" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>Scalable React Boilerplate</title>
+        <title>Your Next Movie</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,300,700|Lato:400,300,700" rel="stylesheet" type="text/css" />
         <link href={`${cssHash}`} rel="stylesheet" />
         <style dangerouslySetInnerHTML={{ __html: styles }} />
