@@ -42,6 +42,7 @@ jspm_packages
 .node_repl_history
 .env
 .vscode
+/config/flow-typed/npm
 /server/public/**/*.js
 /server/public/**/*.css
 /server/public/**/*.map
