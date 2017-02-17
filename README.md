@@ -1,6 +1,6 @@
 # Your Next Movie
 
-Discover movies that you'd like to watch next, and star :star: your favorites!
+Discover movies that you'd like to watch next, and star your favorites! :star:
 
 ## Quickstart
 
